@@ -14,7 +14,7 @@ typedef struct chat
     struct chat *next;
 }chat;
 void prin(chat *phead);
-/*带头节点的单向循环链表*/
+/*带头节点单向循环链表*/
 int create(int n)
 {
     int i = 0;
